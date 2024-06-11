@@ -1,3 +1,15 @@
+variable "waypoint_add_on" {
+  type        = string
+  description = "Waypoint add-on name."
+  default     = ""
+}
+
+variable "waypoint_add_on_definition" {
+  type        = string
+  description = "Waypoint add-on definition."
+  default     = ""
+}
+
 variable "resource_group_location" {
   type        = string
   description = "Location for all resources."
