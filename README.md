@@ -1,1 +1,1 @@
-# terraform-azure-sqldatabase
+# Terraform module that creates an Azure SQL Database instance.
